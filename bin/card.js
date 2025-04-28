@@ -19,7 +19,6 @@ const data = {
    personal: chalk.cyan.bold("http://benlammers.dev"),
    email: chalk.white.bold("21benlammers@gmail.com"),
    github: chalk.gray.bold("https://github.com/") + chalk.green.bold("benlammers"),
-   twitter: chalk.gray.bold("https://twitter.com/") + chalk.red.bold("benlammers_"),
    linkedin: chalk.gray.bold("https://www.linkedin.com/in/") + chalk.blue.bold("ben-lammers-3bb8bb168"),
    card: chalk.white.bold("https://github.com/benlammers/npx-benlammers"),
 
@@ -28,7 +27,6 @@ const data = {
    labelPersonal: chalk.white.underline.bold("Ben Lammers"),
    labelEmail: chalk.cyan.bold("      Email:"),
    labelGitHub: chalk.cyan.bold("     GitHub:"),
-   labelTwitter: chalk.cyan.bold("    Twitter:"),
    labelLinkedIn: chalk.cyan.bold("   LinkedIn:"),
    labelCard: chalk.cyan.bold("       Card:"),
 };
@@ -39,11 +37,10 @@ const subheading = `                   ${data.subheading}`;
 
 const email = `${data.labelEmail}  ${data.email}`;
 const github = `${data.labelGitHub}  ${data.github}`;
-const twitter = `${data.labelTwitter}  ${data.twitter}`;
 const linkedin = `${data.labelLinkedIn}  ${data.linkedin}`;
 const card = `${data.labelCard}  ${data.card}`;
 
 // Put all our output together into a single variable so we can use boxen effectively
-const output = heading + "\n\n" + subheading + "\n\n\n" + email + "\n" + github + "\n" + twitter + "\n" + linkedin + "\n\n" + card;
+const output = heading + "\n\n" + subheading + "\n\n\n" + email + "\n" + github + "\n" + linkedin + "\n\n" + card;
 
 console.log(chalk.green(boxen(output, options)));
