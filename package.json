@@ -1,11 +1,11 @@
 {
    "name": "benlammers",
-   "version": "1.0.2",
+   "version": "1.0.3",
    "description": "A personal card for Ben Lammers",
    "main": "index.js",
    "type": "module",
    "bin": {
-      "bitandbang": "./bin/card.js"
+      "benlammers": "./bin/card.js"
    },
    "scripts": {
       "card": "node ./bin/card.js"

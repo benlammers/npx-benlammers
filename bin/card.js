@@ -22,7 +22,7 @@ const data = {
    linkedin: chalk.gray.bold("https://www.linkedin.com/in/") + chalk.blue.bold("ben-lammers-3bb8bb168"),
    card: chalk.white.bold("https://github.com/benlammers/npx-benlammers"),
 
-   subheading: chalk.white("Full Stack Web Developer"),
+   subheading: chalk.white("Full Stack Developer"),
 
    labelPersonal: chalk.white.underline.bold("Ben Lammers"),
    labelEmail: chalk.cyan.bold("      Email:"),
